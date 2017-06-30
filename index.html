@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Weather</title>
+	<link rel="stylesheet" href="">
+	<script src="script.js"></script>
+</head>
+<body>
+	<div class="container" style="margin-left: 300px;">
+		<select onchange="load_Weather(this.value)">
+			<option value="1566165">Thanh Hoa</option>
+			<option value="1581130">Ha Noi</option>
+			<option value="1905678">Ca Mau</option>
+			<option value="1905626">Nam Dinh</option>
+			<option value="1565033">Hue</option>
+			<option value="8201616">Huyen Ba Vi</option>
+		</select>
+	</div>
+
+	<ul id="weather" style="margin-left: 300px;"></ul>
+</body>
+</html>
